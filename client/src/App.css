@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.register-button {
+  background-color: #6a11cb;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #4e0e99;
+}
+
+.login-button {
+  background-color: #2575fc;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #1a5cbf;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.hashes {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.hashes-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  color: #333;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+}
